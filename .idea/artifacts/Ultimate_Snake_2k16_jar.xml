@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Ultimate_Snake-2k16:jar">
+    <output-path>$USER_HOME$/Desktop</output-path>
+    <root id="archive" name="Ultimate_Snake-2k16.jar">
+      <element id="module-output" name="Snake" />
+    </root>
+  </artifact>
+</component>
