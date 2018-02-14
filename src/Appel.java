@@ -18,10 +18,11 @@ public class Appel {
         y = (int) (Math.random() * 350);
 
         for (Point point : rots.rotsen) {
-            if (x >= point.x - 1 && x <= (point.x + SCHAAL + 1))
+            if (x >= point.x - 1 && x <= (point.x + SCHAAL + 1)) {
                 if (y >= point.y - 1 && y <= (point.y + SCHAAL + 1)) {
                     veranderPositie(rots);
                 }
+            }
         }
     }
 
