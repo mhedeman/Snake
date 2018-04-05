@@ -40,10 +40,11 @@ public class Rots {
         int snakeY = snake.getY() + snake.SCHAAL / 2;
 
         for (Point point : rotsen) {
-            if (snakeX >= point.x - 1 && snakeX <= (point.x + SCHAAL + 1))
+            if (snakeX >= point.x - 1 && snakeX <= (point.x + SCHAAL + 1)) {
                 if (snakeY >= point.y - 1 && snakeY <= (point.y + SCHAAL + 1)) {
                     return true;
                 }
+            }
         }
         return false;
     }
